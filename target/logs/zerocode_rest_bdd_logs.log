@@ -1,0 +1,125 @@
+2021-03-16 13:12:48,222 [main] INFO  org.jsmart.zerocode.core.utils.RunnerUtils - ### testClass : class com.tests.JustHelloWorldTest
+2021-03-16 13:12:49,065 [main] INFO  org.jsmart.zerocode.core.utils.RunnerUtils - ### testClass : class com.tests.JustHelloWorldTest
+2021-03-16 13:12:49,145 [main] INFO  org.jsmart.zerocode.core.utils.RunnerUtils - ### testClass : class com.tests.JustHelloWorldTest
+2021-03-16 13:12:49,170 [main] INFO  org.jsmart.zerocode.core.runner.ZeroCodeUnitRunner - System property zerocode.junit=null
+2021-03-16 13:12:49,176 [main] ERROR org.jsmart.zerocode.core.utils.SmartUtils - Exception occurred while parsing the 'Test Scenario' file:{}. Check if it is present n in correct formathelloworld/hello_world_scenario_happy_path.json
+2021-03-16 13:12:49,187 [main] INFO  org.jsmart.zerocode.core.engine.listener.ZeroCodeTestReportListener - #ZeroCode: Test run completed for this runner. Generating test reports and charts. 
+* For more examples and help on automated Kafka data stream testing and Load testing visit https://zerocode.io
+2021-03-16 13:14:35,224 [main] INFO  org.jsmart.zerocode.core.utils.RunnerUtils - ### testClass : class com.tests.JustHelloWorldTest
+2021-03-16 13:14:36,098 [main] INFO  org.jsmart.zerocode.core.utils.RunnerUtils - ### testClass : class com.tests.JustHelloWorldTest
+2021-03-16 13:14:36,179 [main] INFO  org.jsmart.zerocode.core.utils.RunnerUtils - ### testClass : class com.tests.JustHelloWorldTest
+2021-03-16 13:14:36,206 [main] INFO  org.jsmart.zerocode.core.runner.ZeroCodeUnitRunner - System property zerocode.junit=null
+2021-03-16 13:14:36,374 [main] INFO  org.jsmart.zerocode.core.runner.ZeroCodeMultiStepsScenarioRunnerImpl - 
+-------------------------- BDD: Scenario:Validate the GET api @@Richard -------------------------
+
+2021-03-16 13:14:36,395 [main] INFO  org.jsmart.zerocode.core.runner.ZeroCodeMultiStepsScenarioRunnerImpl - 
+-------------------------------------------------------------------------
+     Executing Scenario Count No. or parameter No. or Row No. | 0 | 
+-------------------------------------------------------------------------
+2021-03-16 13:14:36,515 [main] INFO  org.jsmart.zerocode.core.httpclient.ssl.SslTrustHttpClient - ###Used SSL Enabled Http Client for http/https/TLS connections
+2021-03-16 13:14:36,839 [main] INFO  org.jsmart.zerocode.core.httpclient.utils.UrlQueryParamsUtils - ### Effective url is : https://api.github.com:443/users/octocat?type=user
+2021-03-16 13:14:36,843 [main] INFO  org.jsmart.zerocode.core.httpclient.utils.HeaderUtils - Overridden the header key:Content-Type, with value:application/json
+2021-03-16 13:14:37,321 [main] INFO  org.jsmart.zerocode.core.engine.validators.ZeroCodeValidatorImpl - Comparing results via LENIENT matchers
+2021-03-16 13:14:37,326 [main] INFO  org.jsmart.zerocode.core.runner.StepNotificationHandler - 
+***Step PASSED - Scenario:Validate the GET api @@Richard -> get_user_details
+2021-03-16 13:14:37,326 [main] INFO  org.jsmart.zerocode.core.runner.ZeroCodeMultiStepsScenarioRunnerImpl - Retry: Leaving early with successful assertion
+2021-03-16 13:14:37,328 [main] WARN  org.jsmart.zerocode.core.runner.ZeroCodeMultiStepsScenarioRunnerImpl - 
+--------- TEST-STEP-CORRELATION-ID: de18cbe2-ee5e-4bc8-b3d7-66bd1aefee60 ---------
+*requestTimeStamp:2021-03-16T13:14:36.439
+step:get_user_details
+id:null
+url:https://api.github.com:443/users/octocat
+method:GET
+request:
+{
+  "headers" : {
+    "Content-Type" : "application/json"
+  },
+  "queryParams" : {
+    "type" : "user"
+  }
+} 
+--------- TEST-STEP-CORRELATION-ID: de18cbe2-ee5e-4bc8-b3d7-66bd1aefee60 ---------
+Response:
+{
+  "status" : 200,
+  "headers" : {
+    "Date" : [ "Tue, 16 Mar 2021 11:14:37 GMT" ],
+    "Server" : [ "GitHub.com" ],
+    "Vary" : [ "Accept, Accept-Encoding, Accept, X-Requested-With" ],
+    "X-RateLimit-Limit" : [ "60" ],
+    "X-Frame-Options" : [ "deny" ],
+    "X-RateLimit-Reset" : [ "1615896877" ],
+    "X-RateLimit-Remaining" : [ "59" ],
+    "Strict-Transport-Security" : [ "max-age=31536000; includeSubdomains; preload" ],
+    "Access-Control-Expose-Headers" : [ "ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset" ],
+    "X-GitHub-Request-Id" : [ "E908:20AF:270ECA0:28A0D8D:6050931D" ],
+    "Access-Control-Allow-Origin" : [ "*" ],
+    "Last-Modified" : [ "Mon, 22 Feb 2021 15:27:56 GMT" ],
+    "X-GitHub-Media-Type" : [ "github.v3; format=json" ],
+    "Content-Security-Policy" : [ "default-src 'none'" ],
+    "X-Content-Type-Options" : [ "nosniff" ],
+    "X-XSS-Protection" : [ "0" ],
+    "X-RateLimit-Used" : [ "1" ],
+    "Referrer-Policy" : [ "origin-when-cross-origin, strict-origin-when-cross-origin" ],
+    "Content-Type" : [ "application/json; charset=utf-8" ],
+    "ETag" : [ "W/\"0e4aaaa18ab4cb9c2fd3ddc464ecc2d487f7cadc90da3743360e1410486a6e5f\"" ],
+    "Cache-Control" : [ "public, max-age=60, s-maxage=60" ],
+    "Accept-Ranges" : [ "bytes" ]
+  },
+  "body" : {
+    "login" : "octocat",
+    "id" : 583231,
+    "node_id" : "MDQ6VXNlcjU4MzIzMQ==",
+    "avatar_url" : "https://avatars.githubusercontent.com/u/583231?v=4",
+    "gravatar_id" : "",
+    "url" : "https://api.github.com/users/octocat",
+    "html_url" : "https://github.com/octocat",
+    "followers_url" : "https://api.github.com/users/octocat/followers",
+    "following_url" : "https://api.github.com/users/octocat/following{/other_user}",
+    "gists_url" : "https://api.github.com/users/octocat/gists{/gist_id}",
+    "starred_url" : "https://api.github.com/users/octocat/starred{/owner}{/repo}",
+    "subscriptions_url" : "https://api.github.com/users/octocat/subscriptions",
+    "organizations_url" : "https://api.github.com/users/octocat/orgs",
+    "repos_url" : "https://api.github.com/users/octocat/repos",
+    "events_url" : "https://api.github.com/users/octocat/events{/privacy}",
+    "received_events_url" : "https://api.github.com/users/octocat/received_events",
+    "type" : "User",
+    "site_admin" : false,
+    "name" : "The Octocat",
+    "company" : "@github",
+    "blog" : "https://github.blog",
+    "location" : "San Francisco",
+    "email" : null,
+    "hireable" : null,
+    "bio" : null,
+    "twitter_username" : null,
+    "public_repos" : 8,
+    "public_gists" : 8,
+    "followers" : 3590,
+    "following" : 9,
+    "created_at" : "2011-01-25T18:44:36Z",
+    "updated_at" : "2021-02-22T15:27:56Z"
+  }
+}
+*responseTimeStamp:2021-03-16T13:14:37.320 
+*Response delay:881.0 milli-secs 
+---------> Expected Response: <----------
+{
+  "status" : 200,
+  "headers" : {
+    "Content-Type" : [ "application/json; charset=utf-8" ]
+  },
+  "body" : {
+    "login" : "octocat"
+  }
+} 
+ 
+-done-
+
+2021-03-16 13:14:37,449 [main] INFO  org.jsmart.zerocode.core.runner.ZeroCodeUnitRunner - 
+**FINISHED executing all Steps for [Validate the GET api @@Richard] **.
+Steps were:[get_user_details]
+2021-03-16 13:14:37,450 [main] INFO  org.jsmart.zerocode.core.engine.listener.ZeroCodeTestReportListener - #ZeroCode: Test run completed for this runner. Generating test reports and charts. 
+* For more examples and help on automated Kafka data stream testing and Load testing visit https://zerocode.io
+2021-03-16 13:14:37,528 [main] INFO  org.jsmart.zerocode.core.domain.builders.ExtentReportsFactory - Where were the tests fired? Ans: OS:Mac OS X, Architecture:x86_64, Java:1.8.0_201, Vendor:Oracle Corporation

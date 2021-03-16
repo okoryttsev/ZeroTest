@@ -1,0 +1,2 @@
+scenarioName,scenarioLoop,stepName,stepLoop,correlationId,requestTimeStamp,responseDelayMilliSec,responseTimeStamp,result,method
+"Validate the GET api @@Richard",0,get_user_details,,"de18cbe2-ee5e-4bc8-b3d7-66bd1aefee60",2021-03-16T13:14:36.439,881.0,2021-03-16T13:14:37.320,PASSED,GET
